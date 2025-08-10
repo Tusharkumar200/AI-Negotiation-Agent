@@ -1,0 +1,34 @@
+{
+  "scenarios": [
+    {
+      "name": "Easy Market",
+      "product": {
+        "name": "Grade-A Alphonso Mangoes",
+        "quantity": 100,
+        "base_market_price": 180000
+      },
+      "budget": 200000,
+      "seller_min": 150000
+    },
+    {
+      "name": "Tight Budget",
+      "product": {
+        "name": "Grade-B Kesar Mangoes",
+        "quantity": 150,
+        "base_market_price": 150000
+      },
+      "budget": 140000,
+      "seller_min": 125000
+    },
+    {
+      "name": "Premium Product",
+      "product": {
+        "name": "Export-Grade Mangoes",
+        "quantity": 50,
+        "base_market_price": 200000
+      },
+      "budget": 190000,
+      "seller_min": 175000
+    }
+  ]
+}
