@@ -1,0 +1,12 @@
+# Concordia (required)
+git+https://github.com/google-deepmind/concordia.git@main
+
+# Hugging Face Inference client (for Llama-3-8B via HF)
+huggingface-hub>=0.14.0
+
+# Utilities
+python-dotenv
+requests
+
+# Testing
+pytest
