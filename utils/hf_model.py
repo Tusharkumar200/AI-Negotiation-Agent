@@ -12,7 +12,7 @@ class HuggingFaceModel:
     Auto-switches between chat_completion and text_generation.
     """
     def __init__(self, model_name=None, api_token=None):
-        self.model_name = model_name or os.getenv("HF_MODEL", "meta-llama/Meta-Llama-3-8B-Instruct")
+        self.model_name = model_name or os.getenv("HF_MODEL")
         self.api_token = api_token or os.getenv("HF_TOKEN")
 
         if not self.api_token:

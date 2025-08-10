@@ -107,7 +107,7 @@ def run_demo():
 
     # Initialize Hugging Face LLM
     model = HuggingFaceModel(
-        model_name=os.getenv("HF_MODEL", "meta-llama/Meta-Llama-3-8B-Instruct"),
+        model_name=os.getenv("HF_MODEL"),
         api_token=os.getenv("HF_TOKEN")
     )
 
